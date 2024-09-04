@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <style>
+      body{
+        background-color: rgb(11, 14, 17);
+        color: white;
+        font-family: Arial;
+      }
+
+      .css-title{
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .rock{
+        height: 60px;
+
+      }
+
+      .rockbutton{
+        background-color: rgb(11, 14, 17);
+        border-color: white;
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        margin-right: 10px;
+        border-width: 3px;
+        cursor: pointer;
+      }
+
+      .css-result{
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: cursive;
+        margin-bottom: 60px;
+      }
+
+      .score{
+        margin-top: 60px;
+      }
+
+      .reset,
+      .autoplay{
+        padding: 8px;
+        cursor: pointer;
+      }
+
+
+    </style>
+
+
+  </head>
+
+
+  <body>
+    <p class="css-title">Rock Paper Scissors</p>
+    <button class="rockbutton"onclick="
+      playGame('rock');
+    "><img class="rock"src="C:\Users\VAISHALI\Desktop\HTML\youtube\youtube.video\javascript\rock-emoji.png"></button>
+
+    <button class="rockbutton" onclick="
+      playGame('paper');
+    "><img class="rock" src="C:\Users\VAISHALI\Desktop\HTML\youtube\youtube.video\javascript\paper-emoji.png"></button>
+
+    <button class="rockbutton" onclick="
+      playGame('scissors');
+    ">
+      <img src="C:\Users\VAISHALI\Desktop\HTML\youtube\youtube.video\javascript\scissors-emoji.png" class="rock">
+    </button>
+  <p class="js-result css-result"></p>
+
+
+     <p class="js-move">
+
+     </p>
+
+  <p class="js-score score"></p>
+
+   
+
+    <button class="reset js-reset"
+    >Reset Score</button>
+
+    <button class="autoplay"
+    onclick="autoPlay();
+    ">Auto Play</button>
+
+    <p class="alert"></p>
+
+    <script src="RCP java.js">
+     
+    </script>
+  </body>
+</html>
